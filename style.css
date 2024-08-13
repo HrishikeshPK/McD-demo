@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: burlywood;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    color: rgb(195, 128, 27);
+    display: flex;
+    justify-content: space-between;
+}header ul{
+    display: flex;
+    margin: 20px;
+}
+header ul li {
+    margin: 10px 30px;
+    list-style: none;
+    font-size: xx-large
+}
+#nav{
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#banner{
+    background-image: url(https://s7d1.scene7.com/is/image/mcdonalds/1PUB_2024QPC_KKBSMcFlurry_2236x1040:1-column-desktop?resmode=sharp2);
+    width: 100%;
+    height: 720px;
+    background-size: cover;
+    background-position: center;
+    background-attachment:inherit
+}
+.row{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(169, 169, 169, 0.381);
+    display: flex;
+    justify-content: space-evenly;
+    /* start ,end, centre, space-evenly, sapce around,space-between*/
+    align-items: center;
+}
+.col{
+    width: 220px;
+    height: 240px;
+    background-color: rgba(63, 1, 1, 0.668);
+    border: 4px solid white;
+    border-radius: 20px;
+}
+.col img{
+    width: 180px;
+    height: 180px;
+    border-radius: 38%;
+    padding-left: 20px;
+    padding-top: 12px;
+    
+}
+/* .col h3{
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 10px;
+} */
+.col img:hover{
+    transform: scale(1.1);
+    border-radius: 20%;
+    cursor: pointer;
+}
+#menu{
+    width: 100%;
+    height: 400px;
+    background-color: azure;
+}
+#menu-section{
+    background-color: azure;
+    font-size: xx-large;
+}
+.menu-p{
+    font-size: large;
+    text-align: center;
+}
+#about-section{
+    background-color: azure;
+    /* font-size: xx-large; */
+}
+.about{
+    width: 100%;
+    height: 700px;
+    background-color: aliceblue;
+    font-size: larger;
+}
+.abt-para{
+    font-size: larger;
+    justify-content: center;
+}
+.abt-h1{
+    font-size: xx-large;
+}
+.abt-img{
+    float: right;
+}
+.Contact-h1{
+    font-size: xx-large;
+}
+.contact{
+    height: 400px;
+    width: 33%;
+    /* background-color: black; */
+    border: 2px solid white;
+    float: left;
+}
